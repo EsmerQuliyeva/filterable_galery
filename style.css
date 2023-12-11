@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem auto;
+    width: 90%;
+}
+
+.buttons {
+    margin: 1.5rem auto;
+}
+
+.btn {
+    padding: 8px 24px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 4px;
+
+
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.store-item{
+    width: 300px;
+    padding: 1rem;
+}
+
+#store-items img {
+    width:100%;
+    height: 200px;
+    display: block;
+    box-shadow: 7px 7px 20px rgba(0,0,0,0.2);
+
+}
